@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
-}
+*{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+    margin: 0;
+    padding: 0;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  .App {
 
-.App-link {
-  color: #61dafb;
-}
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    font-family: "Nunito", "sans-serif";
+    align-items: center;
+    color: black;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+
+  .App h1{
+
+    font-size: 3rem;
+
   }
-}
+
+  .App p{
+
+    font-size: smaller;
+    margin-top: 1rem;
+
+  }
+  
+  .btn-category{
+
+    cursor: pointer;
+    background-color: white;
+    border-Radius: 0.5rem;
+    padding: 0.5rem  1rem;
+    border: 1px solid black;
+    margin: 1rem 0.3rem;
+
+  }
+  
+  .movieItem{
+
+    text-align: left;
+    list-style: none;
+    padding: 1rem;
+    border: 1px solid #c5c9cf;
+    width: 70%;
+    margin:1rem auto;
+    border-radius: 0.8rem;
+
+  }
+  
+  .movieItem .name{
+
+    font-size: 1.4rem;
+
+  }
+
+  .movieItem .rating{
+
+    font-size: 1rem;
+    margin-top: 0.3rem;
+
+  }
+
+  .movieItem .description{
+
+    font-size: 0.8rem;
+
+  }
+
+  h4{
+
+    margin: 4rem auto 2rem;
+
+  }
